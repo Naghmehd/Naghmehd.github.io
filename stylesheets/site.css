@@ -408,68 +408,60 @@ textarea {
 body {
   text-align: center;
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin-top: 11em;
   background-color: #35485F;
   color: white; }
 
-/* line 18, site.css.scss */
+/* line 17, site.css.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Lato', sans-serif;
   color: white; }
 
-/* line 23, site.css.scss */
+/* line 22, site.css.scss */
 p {
   font-size: 1em;
   line-height: 175%;
   color: white; }
 
-/* line 29, site.css.scss */
-.container {
-  margin-top: 19em; }
-
-/* line 34, site.css.scss */
+/* line 33, site.css.scss */
 header h1 {
   display: inline-block;
   font-weight: bold;
   color: #ECC561;
-  margin-top: 3.75em; }
+  margin-top: 2.75em; }
 
-/* line 44, site.css.scss */
+/* line 43, site.css.scss */
 .profile-pic img {
-  position: absolute;
-  top: -10em;
-  left: 41%;
+  display: inline-block;
   border-radius: 50%;
   height: 15em;
   width: 15em;
   box-shadow: 0px 0px 3px 1px #fff; }
 
-/* line 55, site.css.scss */
+/* line 52, site.css.scss */
 .row {
   margin-right: 0px;
-  margin-left: 20px;
   margin-bottom: 7em; }
 
-/* line 63, site.css.scss */
+/* line 59, site.css.scss */
 .navbar {
   background-color: #35485F;
   border-bottom-color: #ECC561; }
-  /* line 64, site.css.scss */
+  /* line 60, site.css.scss */
   .navbar a {
     text-decoration: none; }
-    /* line 66, site.css.scss */
+    /* line 62, site.css.scss */
     .navbar a:hover {
       text-decoration: none; }
-  /* line 73, site.css.scss */
+  /* line 69, site.css.scss */
   .navbar ul {
     display: inline-block;
     position: relative;
     top: 1em; }
-    /* line 78, site.css.scss */
+    /* line 74, site.css.scss */
     .navbar ul li {
       display: inline-block;
       margin: 0 0.9em; }
-      /* line 81, site.css.scss */
+      /* line 77, site.css.scss */
       .navbar ul li a {
         display: inline-block;
         text-decoration: none;
@@ -479,14 +471,18 @@ header h1 {
         letter-spacing: 0.09em;
         font-weight: bold;
         transition: all 0.2s ease; }
-        /* line 90, site.css.scss */
+        /* line 86, site.css.scss */
         .navbar ul li a:hover {
           color: #ECC561; }
-  /* line 96, site.css.scss */
+  /* line 92, site.css.scss */
   .navbar li.active {
     border-bottom: 2px solid #ECC561; }
 
-/* line 105, site.css.scss */
+/* line 98, site.css.scss */
+#home {
+  padding-top: 8em; }
+
+/* line 106, site.css.scss */
 .thumbnail {
   position: relative;
   padding: 0px;
@@ -496,37 +492,39 @@ header h1 {
   border: none;
   text-align: left; }
 
-/* line 115, site.css.scss */
+/* line 116, site.css.scss */
 .thumbnail:hover {
   background-color: #ECC561; }
 
-/* line 119, site.css.scss */
+/* line 120, site.css.scss */
 .thumbnail img {
   width: 100%; }
 
-/* line 123, site.css.scss */
+/* line 124, site.css.scss */
 .overlay h5 {
   text-align: center; }
 
 /* line 128, site.css.scss */
+ul.row {
+  padding-left: 0; }
+
+/* line 133, site.css.scss */
 .row3 {
   /*
       Multicoloured Hover Variations
   */ }
-  /* line 130, site.css.scss */
+  /* line 135, site.css.scss */
   .row3 li {
     display: inline-block;
     position: relative;
     text-decoration: none;
-    font-family: 'Lato', sans-serif;
-    margin-right: -5em;
-    margin-left: 2em; }
-  /* line 140, site.css.scss */
+    font-family: 'Lato', sans-serif; }
+  /* line 143, site.css.scss */
   .row3 .social:hover {
     -webkit-transform: scale(1.1);
     -moz-transform: scale(1.1);
     -o-transform: scale(1.1); }
-  /* line 145, site.css.scss */
+  /* line 148, site.css.scss */
   .row3 .social {
     -webkit-transform: scale(0.8);
     /* Browser Variations: */
@@ -536,15 +534,15 @@ header h1 {
     -moz-transition-duration: 0.5s;
     -o-transition-duration: 0.5s;
     color: #ECC561; }
-  /* line 161, site.css.scss */
+  /* line 164, site.css.scss */
   .row3 #social-em:hover {
     color: #f39c12; }
-  /* line 164, site.css.scss */
+  /* line 167, site.css.scss */
   .row3 #social-tw:hover {
     color: #4099FF; }
-  /* line 167, site.css.scss */
+  /* line 170, site.css.scss */
   .row3 #social-gt:hover {
     color: #f3f3f3; }
-  /* line 170, site.css.scss */
+  /* line 173, site.css.scss */
   .row3 #social-re:hover {
     color: #DF761E; }
